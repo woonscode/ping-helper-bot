@@ -4,7 +4,8 @@ import requests
 from telegram import Bot
 
 TOKEN = os.getenv("TOKEN")
-CHAT_ID = 145382580
+# Set receivers with Telegram Chat ID
+CHAT_ID = 0
 
 
 bot = Bot(TOKEN)
