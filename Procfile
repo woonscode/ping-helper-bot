@@ -1,1 +1,1 @@
-web: python3 esm_helper_bot.py
+web: python3 ping_helper_bot.py
