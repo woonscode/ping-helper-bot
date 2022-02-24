@@ -17,7 +17,7 @@ alive = False
 while(True):
     try:
         # Set url to ping
-        response = requests.head("http://ec2-13-214-168-201.ap-southeast-1.compute.amazonaws.com/")
+        response = requests.head("http://ec2-35-173-177-53.compute-1.amazonaws.com/")
         if response.status_code == 200:
             alive = True
         else:
